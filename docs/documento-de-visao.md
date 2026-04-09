@@ -13,6 +13,7 @@
 | 26/03/2026 |  1.0   |  Criação do esqueleto do documento  | Danilo Ladeira - @daniloladeira |
 | 31/03/2026 |  1.1   | Definição dos requisitos funcionais |      Ana Maria - @namariaa      |
 | 31/03/2026 |  1.2   | Definição do objetivo do projeto, descrição dos usuários e requisitos não funcionais |      Danilo Ladeira - @daniloladeira      |
+| 09/04/2026 |  1.3   | Mudar nome dos requisitos funcionais para substantivos | Ana Maria - @namariaa |
 
 ---
 
@@ -89,15 +90,15 @@ Dessa forma, surge a oportunidade de desenvolver um sistema que estruture e auto
 
 | CÓDIGO | NOME                           | DESCRIÇÃO                                                                                                                                                                                                     | GRAVIDADE |
 | ------ | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| RF01   | Criar sessão                   | O sistema deve permitir que uma equipe configure uma sessão, definindo parâmetros como tempo das rodadas, quantidade de opções exibidas, número mínimo de palavras, quantidade de opções para a fase MEIA e regras de critérios de avaliação. | Alta      |
-| RF02   | Adicionar estalos criativos    | O sistema deve permitir que participantes adicionem novas ideias espontaneamente durante as fases iniciais e intermediárias, integrando essas sugestões à nuvem de palavras.                                | Média     |
-| RF03   | Criar por categorias           | O sistema deve conduzir a fase de geração de nomes por categorias sorteadas, permitindo que cada participante insira sugestões de forma individual e oculta dentro do tempo definido.                         | Alta      |
-| RF04   | Realizar exclusão coletiva     | O sistema deve apresentar quadros de palavras iguais para todos os participantes, permitindo votação individual (manter ou excluir), aplicando a regra de eliminação por maioria (50% + 1) e repondo automaticamente novas palavras da nuvem. | Alta      |
-| RF05   | Aplicar critérios de avaliação | O sistema deve permitir a avaliação dos nomes com base em critérios definidos (sonoridade, escrita, disponibilidade, etc.), eliminando nomes conforme o limite de critérios violados estabelecido.            | Alta      |
-| RF06   | Executar fase MEIA             | O sistema deve permitir a criação de variações dos nomes restantes por meio das etapas de manter, eliminar, incrementar e ajuntar, registrando todas as sugestões geradas.                                  | Média     |
-| RF07   | Realizar votação final         | O sistema deve apresentar os nomes finais para votação, permitindo que os participantes escolham o nome vencedor por maioria.                                                                                 | Alta      |
-| RF08   | Exibir nuvem de palavras       | O sistema deve consolidar e exibir todas as palavras sugeridas ao longo da dinâmica, garantindo sua utilização nas fases seguintes.                                                                           | Média     |
-| RF09   | Controlar tempo das rodadas    | O sistema deve gerenciar automaticamente o tempo de cada fase, encerrando rodadas conforme definido na sessão.                                                                                                | Alta      |
+| RF01   | Criação de uma sessão                   | O sistema deve permitir que uma equipe configure uma sessão, definindo parâmetros como tempo das rodadas, quantidade de opções exibidas, número mínimo de palavras, quantidade de opções para a fase MEIA e regras de critérios de avaliação. | Alta      |
+| RF02   | Adição de estalos criativos    | O sistema deve permitir que participantes adicionem novas ideias espontaneamente durante as fases iniciais e intermediárias, integrando essas sugestões à nuvem de palavras.                                | Média     |
+| RF03   | Criação por categorias           | O sistema deve conduzir a fase de geração de nomes por categorias sorteadas, permitindo que cada participante insira sugestões de forma individual e oculta dentro do tempo definido.                         | Alta      |
+| RF04   | Realização de exclusão coletiva     | O sistema deve apresentar quadros de palavras iguais para todos os participantes, permitindo votação individual (manter ou excluir), aplicando a regra de eliminação por maioria (50% + 1) e repondo automaticamente novas palavras da nuvem. | Alta      |
+| RF05   | Aplicação de critérios de avaliação | O sistema deve permitir a avaliação dos nomes com base em critérios definidos (sonoridade, escrita, disponibilidade, etc.), eliminando nomes conforme o limite de critérios violados estabelecido.            | Alta      |
+| RF06   | Execução da fase MEIA             | O sistema deve permitir a criação de variações dos nomes restantes por meio das etapas de manter, eliminar, incrementar e ajuntar, registrando todas as sugestões geradas.                                  | Média     |
+| RF07   | Realização de votação final         | O sistema deve apresentar os nomes finais para votação, permitindo que os participantes escolham o nome vencedor por maioria.                                                                                 | Alta      |
+| RF08   | Exibição de nuvem de palavras       | O sistema deve consolidar e exibir todas as palavras sugeridas ao longo da dinâmica, garantindo sua utilização nas fases seguintes.                                                                           | Média     |
+| RF09   | Controle do tempo das rodadas    | O sistema deve gerenciar automaticamente o tempo de cada fase, encerrando rodadas conforme definido na sessão.                                                                                                | Alta      |
 
 ### 4.2. Requisitos Não Funcionais (RNF)
 
