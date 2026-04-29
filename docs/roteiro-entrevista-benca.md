@@ -5,7 +5,7 @@
 | Stakeholder | Papel no Sistema | Perfil | Principal Necessidade |
 | :--- | :--- | :--- | :--- |
 | **Coordenador de Equipe** | Facilitador de Grupo | Líderes de agência ou gestores de projeto. | Ferramentas de mediação de conflitos e gestão de tempo da equipe. |
-| **Consultor Metodológico** | Autores da Técnica | Professores ou especialistas no método do IFRN. | Fornecem a base do sistema, garantindo que o fluxo respeite o rigor do método original. |
+| **Consultor Metodológico** | Autores da Técnica | Professores ou especialistas no método Bença. | Fornecem a base do sistema, garantindo que o fluxo respeite o rigor do método original. |
 | **Jogador** | Participante | Designers, Desenvolvedores ou Redatores. | Ambiente intuitivo e seguro (anônimo) para sugerir ideias e votar. |
 | **Dono do Projeto** | Decisor / Negócio | Stakeholders, CEOs ou Clientes. | Garantia de que o nome final é viável e alinhado ao negócio. |
 
