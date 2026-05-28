@@ -1,0 +1,14 @@
+## HU02 - Aplicação de Critério de Avaliação
+**ID:** HU02  
+**Prioridade:** Alta  
+**Requisito Relacionado:** RF05 (Aplicação de critérios de avaliação)
+
+### Descrição
+Como **Participante (Mestre ou Jogador)**, desejo avaliar os nomes finalistas com base em critérios técnicos pré-definidos, para que possamos filtrar e eliminar opções que não atendam aos requisitos de marca (sonoridade, escrita, disponibilidade).
+
+### Critérios de Aceite
+1. O sistema deve listar os nomes que sobreviveram às fases de exclusão anteriores.
+2. Para cada nome, o sistema deve permitir marcar o atendimento ou violação de critérios como: Sonoridade, Escrita, Disponibilidade de Domínio/Redes Sociais e Originalidade.
+3. O sistema deve exibir a descrição de cada critério ao passar o mouse ou clicar em um ícone de ajuda.
+4. O sistema deve eliminar automaticamente os nomes que ultrapassarem o limite de violações configurado pelo Mestre no início da sessão.
+5. O progresso da avaliação deve ser visível para todos os participantes em tempo real.
