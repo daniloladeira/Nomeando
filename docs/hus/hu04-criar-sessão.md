@@ -1,4 +1,4 @@
-## HU01 - Criar Sessão
+## HU04 - Criar Sessão
 **ID:** HU04 
 **Prioridade:** Alta  
 **Requisito Relacionado:** RF01 (Criação de uma sessão)
