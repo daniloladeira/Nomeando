@@ -1,6 +1,6 @@
 # Documento de Visão e Escopo
 
-## [NOME DO SISTEMA]
+## Bença
 
 **Componentes:**
 - Ana Maria
@@ -102,10 +102,10 @@ Dessa forma, surge a oportunidade de desenvolver um sistema que estruture e auto
 
 ### 4.2. Requisitos Não Funcionais (RNF)
 
-| CÓDIGO | NOME              | DESCRIÇÃO                                                                                                                                                             | GRAVIDADE |
-| ------ | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| RNF 01 | Desempenho e Sincronização | O sistema deve suportar a sincronização em tempo real das interações (votos, cronômetro e reposição de palavras) entre todos os usuários de uma sessão, sem atrasos perceptíveis. | Alta      |
-| RNF 02 | Usabilidade e Responsividade | A interface do sistema deve ser responsiva, garantindo legibilidade e facilidade de interação tanto em navegadores desktop quanto em dispositivos móveis (smartphones e tablets). | Alta      |
-| RNF 03 | Segurança e Controle de Acesso | O acesso às sessões colaborativas deve ser restrito a participantes autorizados mediante link de convite único ou código da sala, prevenindo interações não autorizadas. | Alta      |
-| RNF 04 | Disponibilidade e Persistência | O sistema deve salvar automaticamente o estado da sessão (palavras sugeridas, resultados parciais e configurações) para evitar perda de dados em caso de queda de conexão. | Alta      |
-| RNF 05 | Escalabilidade | A arquitetura deve permitir múltiplas sessões (salas) ocorrendo simultaneamente sem degradação do desempenho do servidor. | Média |
+| CÓDIGO | NOME              | DESCRIÇÃO                            | GRAVIDADE | ESCALA | MÉTRICA | MÍNIMO | INTERVALO OK | ÓTIMO | OPERACIONALIZAR |
+|------ | ----------------- | ------------------------------------- | --------- |  --------- |  --------- |  --------- |  --------- | --------- | --------- |
+| RNF 01 | Eficiência de desempenho | O sistema deve suportar a sincronização em tempo real das interações (votos, cronômetro e reposição de palavras) entre todos os usuários de uma sessão, sem atrasos perceptíveis. | Alta | Tempo decorrido em segundos. | Medir tempo de atulização das informações entre dois jogadores conectados em uma sessão que estão em condições de ambiente similares quase identicas.   | Menos de 3 segundos para pelo menos 95% de todos os casos. | Entre 0,3 a 1 segundo para pelo menos 95% de todos os casos.| Menos de 0,3 s para pelo menos 97% dos casos. | - |
+| RNF 02 | Usabilidade e Responsividade | A interface do sistema deve ser responsiva, garantindo legibilidade e facilidade de interação tanto em navegadores desktop quanto em dispositivos móveis (smartphones e tablets). | Alta |  | | | | | |
+| RNF 03 | Segurança e Controle de Acesso | O acesso às sessões colaborativas deve ser restrito a participantes autorizados mediante link de convite único ou código da sala, prevenindo interações não autorizadas. | Alta      |  | | | | | | |
+| RNF 04 | Disponibilidade e Persistência | O sistema deve salvar automaticamente o estado da sessão (palavras sugeridas, resultados parciais e configurações) para evitar perda de dados em caso de queda de conexão. | Alta      |  | | | | | |
+| RNF 05 | Escalabilidade | A arquitetura deve permitir múltiplas sessões (salas) ocorrendo simultaneamente sem degradação do desempenho do servidor. | Média |  | | | | | |
