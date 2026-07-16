@@ -2,7 +2,7 @@
 
 ### Elicitação
 
-Mapeamos os principais perfis de stakeholder da dinâmica (coordenador, consultor metodológico, jogador e dono do projeto) e usamos a técnica de entrevista, com um roteiro específico para cada perfil, para entender como cada um vive hoje o processo manual da técnica Bença.
+No começo, o levantamento veio do conhecimento que nós já tínhamos sobre como a técnica Bença funciona, e documentamos o fluxo do jogo direto no Documento de Visão. Depois, pra detalhar melhor as Histórias de Usuário e os RNFs, mapeamos os principais perfis de stakeholder da dinâmica (coordenador de equipe, consultor metodológico, jogador e dono do projeto) e planejamos um roteiro de entrevista específico para cada um, pra confirmar e completar essas necessidades.
 
 ### Documentação
 
